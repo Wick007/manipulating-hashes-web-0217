@@ -14,8 +14,9 @@ def first_challenge
   }
 
   #your code here
-
-
+  #h.delete_if {|key, value| key >= "b" }
+  contacts["Freddy Mercury"][:favorite_icecream_flavors].delete("strawberry")
+  #contacts.delete_if {|k, v| k == "Freddy Mercury" && k == }
   #remember to return your newly altered contacts hash!
   contacts
 end
